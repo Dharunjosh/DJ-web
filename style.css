@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgb(2, 65, 50);
+    color: aliceblue;
+    padding: 15px;
+    
+}
+h1:hover{
+    color: rgb(0, 0, 0);
+}
+li,ul,h1{
+    display: inline;
+}
+ul{
+    margin-left: 69%;
+}
+li{
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+}
+
+li:hover,a:hover{
+    color: rgb(0, 0, 0);
+}
+input{
+    padding: 10px;
+    width: 70%;
+    margin: 25px;
+}
+.search{
+    text-align: center;
+}   
+p{
+    color: aliceblue;
+}
+.box{
+    border-color: slateblue;
+    border-width: 3px;
+    border-style: solid;
+    width: 250px;
+    display: inline-block;
+    padding: 5px;
+    
+
+}
+.products{
+    padding: 50px;
+    text-align: center;
+}
+#about{
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+#pro{
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+.contact{
+    color: blue;
+    text-align: center;
+    padding:20px ;
+
+}
+.sp{
+    padding: 20px;
+}
+#social:hover{
+color: blue;
+}
+a{
+    color:rgb(255, 255, 255);
+}
+
+/*01's work --- remove later*/
+a{
+    text-decoration:none;
+    font-style: none;
+    transition: .30s;
+}
+a:hover{
+    color: black;
+    font-size:1em;
+    font-weight: bold;
+}
+
