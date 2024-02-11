@@ -1,0 +1,12 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-image: url(/css/images/dj-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+.dharun{
+    border-radius: 5px;
+}
