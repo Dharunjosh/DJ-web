@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.heading{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+span{
+    color: rgb(255, 0, 0);
+    border-radius: 2px;
+}
+span.heist {
+    color: rgb(0, 0, 0);
+    background-color: red;
+    border-radius: 4px;
+    padding: 3px;
+}
+h1{
+    font-size:60px;
+}
+h3{
+    font-size: 45px;
+}
+h3.tag-line{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.image img{
+    height: 380px;
+}
+.content{
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgb(255, 1, 1);
+    border-radius: 4px;
+    text-align:justify;
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.pictures img{
+    height: 180px;
+    width: 300px;
+    padding: 10px 30px;
+
+}
+.ref {
+    text-align: center;
+   margin: 30px 0px;
+}
+.ref label{
+    font-size: x-large;
+    color: red;
+   
+}
+.ref a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.about table {
+    border-color: rgb(255, 255, 255);
+    padding: 2px;
+}
+.about tr td{
+padding: 10px;
+}
+
+
+.inf{
+    text-align: center;
+    color: red;
+}
+footer{
+    padding: 30px;
+    text-align: center;
+}
